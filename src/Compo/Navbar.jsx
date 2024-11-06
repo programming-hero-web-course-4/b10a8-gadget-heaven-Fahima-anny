@@ -26,22 +26,21 @@ const [total] =useContext(TotalContext) ;
          ${pathname === '/dashboard' || pathname === '/statistics' || pathname === '/review' 
               ? "bg-base-200"  : "bg-purple-600"
             }
-         text-white`}>
+         `}>
         <div className="navbar-start md:w-1/2 ">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor">
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M4 6h16M4 12h8m-8 6h16" />
-              </svg>
+            <svg
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        className="inline-block h-5 w-5 stroke-current">
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="2"
+          d="M4 6h16M4 12h16M4 18h16"></path>
+      </svg>
             </div>
             <ul
               tabIndex={0}
@@ -77,7 +76,7 @@ const [total] =useContext(TotalContext) ;
       <h3 className="border-b hover:bg-white" >{cart.length} Items in Cart</h3>
      {cart.length > 0 ?  <p className="font-bold hover:bg-white text-purple-600">Subtotal: $ {total}</p> : ''}
      <Link to='/dashboard'>
-     <button className="btn bg-purple-600 hover:bg-purple-500 duration-500 text-white rounded-full"> Dashboard</button>
+     <span className="btn bg-purple-600 hover:bg-purple-500 duration-500 text-white rounded-full"> Dashboard</span>
      </Link>
     </li>
   

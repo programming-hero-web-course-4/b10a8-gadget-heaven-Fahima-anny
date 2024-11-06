@@ -15,7 +15,7 @@ if(!category.category){
     setProducts(allProducts)
 }
 else{
-    const filteredProducts = [...allProducts].filter(p => p.category === category.category )
+    const filteredProducts = [...allProducts]?.filter(p => p.category === category.category )
     setProducts(filteredProducts)
 }
 } , [allProducts, category])
@@ -24,7 +24,7 @@ else{
         <div>
        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
        {
-            products.map(product => <ProductCard key={product.product_id} product={product}></ProductCard>)
+            products?.map(product => <ProductCard key={product.product_id} product={product}></ProductCard>)
             }
        </div>
             

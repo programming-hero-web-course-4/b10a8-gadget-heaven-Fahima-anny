@@ -1,4 +1,4 @@
-import { useContext, useState } from "react";
+import React ,{ useContext, useState } from "react";
 import Cart from "./Cart";
 import { CartContext, TotalContext, WishContext } from "./Root";
 import { toast } from "react-toastify";
@@ -87,9 +87,7 @@ Welcome to the dash board area. Here you can purchase the products you have adde
 
 <div className="py-16 max-w-6xl mx-auto">
 {cartActive 
-?
-        <div className="">
-
+? <>
         <div className="flex flex-col md:flex-row gap-4 flex-wrap justify-center md:justify-between items-center">
             <div className="text-xl font-bold">Cart</div>
             <div className="flex flex-wrap gap-3 justify-center  items-center">
@@ -106,15 +104,14 @@ Welcome to the dash board area. Here you can purchase the products you have adde
         </div>
 
        {
-       cart.map( item => <Cart item={item}></Cart> )
+       cart?.map( item => <Cart key={item.id} item={item}></Cart> )
        }
-
-            </div>
+            </>
 
 :   
 <div>
 {
-    wishList.map( (item, idx) => <Wishlist key={idx} item={item}></Wishlist> )
+    wishList?.map( (item, idx) => <Wishlist key={idx} item={item}></Wishlist> )
 }
 </div>
 } 

@@ -11,7 +11,7 @@ const [total,setTotal] = useContext(TotalContext) ;
 const {product_title,price, product_image,description, product_id } = item ;
 
     const handleDelete = () => {
-        const remaining = cart.filter( p => p.product_id !== product_id )
+        const remaining = cart?.filter( p => p.product_id !== product_id )
         console.log(remaining)
         setCart(remaining)
         setTotal(total - price)

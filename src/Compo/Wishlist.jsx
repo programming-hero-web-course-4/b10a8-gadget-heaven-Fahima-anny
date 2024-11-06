@@ -2,6 +2,7 @@ import { useContext } from "react";
 import {  WishContext } from "./Root";
 import { IoIosCloseCircleOutline } from "react-icons/io";
 import { PiShoppingCartBold } from "react-icons/pi";
+import { toast } from "react-toastify";
 
 
 const Wishlist = ({item}) => {
@@ -9,8 +10,8 @@ const Wishlist = ({item}) => {
     const [wishList,setWishList] = useContext(WishContext) ;
 const {product_title,price, product_image,description, product_id } = item ;
 
-    const handleDelete = () => {
-        const remaining = wishList.filter( p => p.product_id !== product_id )
+    const handleWishDelete = () => {
+        const remaining = wishList?.filter( p => p.product_id !== product_id )
         // console.log(remaining)
         setWishList(remaining)
         toast.error('Item Deleted')
@@ -39,7 +40,7 @@ className="btn bg-purple-600 hover:bg-purple-500 duration-500 text-white rounded
 </div>
 
 <div>
-<button onClick={handleDelete} className="hover:bg-red-100 rounded-full duration-500">
+<button onClick={handleWishDelete} className="hover:bg-red-100 rounded-full duration-500">
 <IoIosCloseCircleOutline className=" text-4xl font-bold text-red-500"></IoIosCloseCircleOutline>
 </button>
 </div>

@@ -12,7 +12,7 @@ const ProductDetails = () => {
     const {id} = useParams() ;
     const idx = parseInt(id)
     
-const result = products.find(p=> p.product_id === idx)
+const result = products?.find(p=> p.product_id === idx)
 const {product_title,price, product_image, product_id,description,category,Specification, availability, rating } = result ;
 
 const firstExample = {
@@ -83,7 +83,7 @@ className='w-full md:absolute  rounded-3xl top-48'>
     <div>
     <h3 className="font-bold pb-1">Specification:</h3> 
 <div>
-{Specification.map((s, idx)=><p key={idx} className="text-gray-500">{s}</p>)  }
+{Specification?.map((s, idx)=><p key={idx} className="text-gray-500">{s}</p>)  }
 </div>
     </div>
     <div className="font-bold">Rating</div>

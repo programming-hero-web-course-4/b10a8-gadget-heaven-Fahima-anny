@@ -11,8 +11,6 @@ import Statistics from './Compo/Statistics';
 import Dashboard from './Compo/Dashboard';
 import ErrorPage from './Compo/ErrorPage';
 import GadgetCards from './Compo/GadgetCards';
-import GadgetsSection from './Compo/GadgetsSection';
-import ProductCard from './Compo/ProductCard';
 import ProductDetails from './Compo/ProductDetails';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -51,12 +49,12 @@ const router = createBrowserRouter([
       {
         path:'/review',
         element: <Review></Review>,
-        loader: () => fetch('customers.json')
+        loader: () => fetch('/customers.json')
       },
       {
         path: '/ProductDetails/:id' ,
         element: <ProductDetails></ProductDetails>,
-        loader: () => fetch('../products.json')
+        loader: () => fetch('/products.json')
       }
     ]
   },

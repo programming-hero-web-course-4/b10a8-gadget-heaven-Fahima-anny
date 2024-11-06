@@ -3,8 +3,8 @@ import Navbar from "./Navbar";
 import Footer from "./Footer" ;
 import { createContext, useState } from "react";
 
-export const WishContext = createContext([]) ;
-export const CartContext = createContext([]) ;
+export const WishContext = createContext({}) ;
+export const CartContext = createContext({}) ;
 export const TotalContext = createContext(0) ; 
 import { HelmetProvider } from 'react-helmet-async';
 
@@ -16,7 +16,7 @@ const Root = () => {
     const [cart,setCart] = useState([]) ;    
    const  [total,setTotal] = useState(0)
 
-console.log(wishList)
+// console.log(wishList)
 
     return (
         <HelmetProvider context={helmetContext}>
