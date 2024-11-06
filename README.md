@@ -3,7 +3,7 @@ Live Link : https://gadget-heaven-fahima.netlify.app/
 
 
 ## 2. Requirement Document Link
-file:///E:/ProgrammingHero/PH-ASSIGNMENT-8/resources/B10-A8-gadget-heaven/Batch-10_Assignment-08.pdf
+[Link](file:///E:/ProgrammingHero/PH-ASSIGNMENT-8/resources/B10-A8-gadget-heaven/Batch-10_Assignment-08.pdf)
 
 
 ## 3. List of React Fundamental concepts used in the project :
