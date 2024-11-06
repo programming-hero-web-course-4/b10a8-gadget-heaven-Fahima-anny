@@ -1,8 +1,33 @@
-# React + Vite
+## 1. Project Name : Gadget Heaven
+Live Link : https://gadget-heaven-fahima.netlify.app/
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+## 2. Requirement Document Link
+file:///E:/ProgrammingHero/PH-ASSIGNMENT-8/resources/B10-A8-gadget-heaven/Batch-10_Assignment-08.pdf
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## 3. List of React Fundamental concepts used in the project :
+ - Components
+ - Context API
+ - Jsx
+ - Prop Drilling 
+ - Hooks
+ - React Router
+ - Props
+ - State
+ - React Events etc.
+
+ ## 4. What I have used for handling and managing data (context API/local storage) :
+In this website I have used Context API for accessing some necessary data from all other components .
+
+
+## 5. 5 features of My website/project :
+ - You can select productS by categories.
+ - You can choose product and add them to your cart to Purchase. And you can add products to the wishlist , so that you can buy those later.
+ - You will get a confirmation message after adding items to cart, wishlist, and purchasing successfully.  
+ - You can delete or filter items from your cart and choose again .
+ - You can see customer review before you purchase from us.
+ 
+
+#
+# Thank You

@@ -1,0 +1,190 @@
+[
+    {
+      "product_id": 1,
+      "product_title": "Dell XPS 13",
+      "product_image": "https://i.ibb.co.com/4WRf0Vd/Laptop-Computer-15-6-inch-Laptop-Intel-Celeron-Quad-Core-Processors-8-GB-RAM-256-GB-ROM-1366-768-IPS.webp",
+      "category": "Laptop",
+      "price": 1099,
+      "description": "A powerful and compact laptop for professionals.",
+      "Specification": ["13.4-inch display", "Intel i7", "512GB SSD"],
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "product_id": 2,
+      "product_title": "MacBook Air M2",
+      "product_image": "https://i.ibb.co.com/qgjjBHd/images-7.webp",
+      "category": "Laptop",
+      "price": 1199,
+      "description": "Apple's lightweight and efficient M2 laptop.",
+      "Specification": ["13.6-inch Retina display", "Apple M2 chip", "256GB SSD"],
+      "availability": true,
+      "rating": 4.9
+    },
+    {
+      "product_id": 3,
+      "product_title": "HP Spectre x360",
+      "product_image": "https://i.ibb.co.com/y5VwbDW/719-Gdxuk-ML-AC-UF350-350-QL80.jpg",
+      "category": "Laptop",
+      "price": 1399,
+      "description": "2-in-1 laptop with a touch display and premium design.",
+      "Specification": ["13.3-inch touchscreen", "Intel i7", "512GB SSD"],
+      "availability": false,
+      "rating": 4.7
+    },
+    {
+      "product_id": 4,
+      "product_title": "Lenovo ThinkPad X1",
+      "product_image": "https://i.ibb.co.com/dWMKjmm/714o3t4z-CHL-UL500.jpg",
+      "category": "Laptop",
+      "price": 1299,
+      "description": "High-end laptop designed for business users.",
+      "Specification": ["14-inch display", "Intel i7", "1TB SSD"],
+      "availability": true,
+      "rating": 4.6
+    },
+    {
+      "product_id": 5,
+      "product_title": "Acer Swift 3",
+      "product_image": "https://i.ibb.co.com/yRpzVXt/ANGPS2401180-JKFIX4-B.jpg",
+      "category": "Laptop",
+      "price": 799,
+      "description": "Lightweight laptop with strong performance.",
+      "Specification": ["14-inch display", "Intel i5", "256GB SSD"],
+      "availability": true,
+      "rating": 4.3
+    },
+    {
+      "product_id": 6,
+      "product_title": "Microsoft Surface Laptop 4",
+      "product_image": "https://i.ibb.co.com/vm99GXB/686-img-1-20240905012710.jpg",
+      "category": "Laptop",
+      "price": 999,
+      "description": "Versatile laptop with a sleek design.",
+      "Specification": ["13.5-inch display", "Intel i5", "512GB SSD"],
+      "availability": false,
+      "rating": 4.5
+    },
+    {
+      "product_id": 7,
+      "product_title": "Apple Watch Series 8",
+      "product_image": "https://i.ibb.co.com/FgY0fL0/1725256457524365.jpg",
+      "category": "Smart Watch",
+      "price": 399,
+      "description": "The latest smartwatch with advanced health features.",
+      "Specification": ["Always-On display", "ECG monitoring", "Water-resistant"],
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "product_id": 8,
+      "product_title": "Samsung Galaxy Watch 5",
+      "product_image": "https://i.ibb.co.com/hZ87cCd/41055c4eb17cf9bf36fdb60b263336d7-jpg-720x720q80.jpg",
+      "category": "Smart Watch",
+      "price": 349,
+      "description": "Feature-packed smartwatch with a stylish design.",
+      "Specification": ["Sleep tracking", "Blood oxygen sensor", "Water-resistant"],
+      "availability": true,
+      "rating": 4.6
+    },
+    {
+      "product_id": 9,
+      "product_title": "Sony WH-1000XM5",
+      "product_image": "https://i.ibb.co.com/YdwtSNd/51t6-M1-AJ-FL-AC-UF894-1000-QL80.jpg",
+      "category": "Accessories",
+      "price": 349,
+      "description": "Top-notch noise-canceling headphones.",
+      "Specification": ["30 hours battery life", "Active noise canceling", "Bluetooth 5.0"],
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "product_id": 10,
+      "product_title": "Bose QuietComfort 45",
+      "product_image": "https://i.ibb.co.com/58yM9JF/cq5dam-web-1920-1920.png",
+      "category": "Accessories",
+      "price": 329,
+      "description": "Comfortable headphones with powerful sound.",
+      "Specification": ["24 hours battery life", "Active noise canceling", "Bluetooth 5.1"],
+      "availability": true,
+      "rating": 4.6
+    },
+    {
+      "product_id": 11,
+      "product_title": "Apple AirPods Pro",
+      "product_image": "https://i.ibb.co.com/qR85Qjt/Air-Pods-Pro-2nd-generation-c-1370.jpg",
+      "category": "Accessories",
+      "price": 249,
+      "description": "Popular wireless earbuds with active noise canceling.",
+      "Specification": ["Up to 24 hours battery with case", "Noise canceling", "Bluetooth 5.0"],
+      "availability": false,
+      "rating": 4.7
+    },
+    {
+      "product_id": 12,
+      "product_title": "Logitech MX Master 3",
+      "product_image": "https://i.ibb.co.com/cv0XWsb/Logitech-MX-Master-3-Price-in-BD-MC-Solution-BD-scaled.webp",
+      "category": "Accessories",
+      "price": 99,
+      "description": "Advanced wireless mouse with ergonomic design.",
+      "Specification": ["7 customizable buttons", "USB-C charging", "Bluetooth connectivity"],
+      "availability": true,
+      "rating": 4.5
+    },
+    {
+      "product_id": 13,
+      "product_title": "Anker PowerCore 20100",
+      "product_image": "https://i.ibb.co.com/MgVxLzN/www-ubuy-com.jpg",
+      "category": "Accessories",
+      "price": 50,
+      "description": "High-capacity portable charger for multiple devices.",
+      "Specification": ["20,100mAh capacity", "Fast charging", "USB-C and USB-A ports"],
+      "availability": true,
+      "rating": 4.4
+    },
+    {
+      "product_id": 14,
+      "product_title": "Razer BlackShark V2",
+      "product_image": "https://i.ibb.co.com/y4QhzjY/blackshark-v2-1-500x500.jpg",
+      "category": "Accessories",
+      "price": 129,
+      "description": "Esports headset with advanced sound quality.",
+      "Specification": ["50mm drivers", "Detachable microphone", "Comfortable ear cushions"],
+      "availability": true,
+      "rating": 4.6
+    },
+    {
+      "product_id": 15,
+      "product_title": "Samsung Galaxy S22",
+      "product_image": "https://i.ibb.co.com/kKvB3tp/camon-30s-black.jpg",
+      "category": "Mobile Phone",
+      "price": 799,
+      "description": "Flagship Samsung smartphone with powerful performance.",
+      "Specification": ["6.2-inch display", "128GB storage", "Triple rear camera"],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "product_id": 16,
+      "product_title": "iPhone 14 Pro",
+      "product_image": "https://i.ibb.co.com/Ybz7FJL/oppo-a3-starlight-white.jpg",
+      "category": "Mobile Phone",
+      "price": 999,
+      "description": "Apple's latest iPhone with ProMotion display.",
+      "Specification": ["6.1-inch Super Retina XDR display", "128GB storage", "Triple rear camera"],
+      "availability": true,
+      "rating": 4.9
+    },
+    {
+      "product_id": 17,
+      "product_title": "Google Pixel 6",
+      "product_image": "https://i.ibb.co.com/FzK9dDw/172432272608179.jpg",
+      "category": "Mobile Phone",
+      "price": 599,
+      "description": "Google's Pixel phone with powerful AI features.",
+      "Specification": ["6.4-inch OLED display", "128GB storage", "Dual rear camera"],
+      "availability": true,
+      "rating": 4.5
+    }
+  ]
+  

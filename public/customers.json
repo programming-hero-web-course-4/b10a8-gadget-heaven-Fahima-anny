@@ -1,0 +1,73 @@
+[
+    {
+      "id": 1,
+      "name": "Ahmed Khan",
+      "img": "https://i.ibb.co.com/wh1TW9S/p3.jpg",
+      "description": "Excellent service and fast delivery! The product quality was outstanding, and I’m very happy with my purchase.",
+      "rating": 5
+    },
+    {
+      "id": 2,
+      "name": "Sophia Ali",
+      "img": "https://i.ibb.co.com/DMdDpKS/p4.jpg",
+      "description": "Great customer support and good product quality. I will definitely shop here again.",
+      "rating": 4
+    },
+    {
+      "id": 3,
+      "name": "Rahul Mehta",
+      "img": "https://i.ibb.co.com/CQpzLdB/p10.jpg",
+      "description": "Product arrived on time, but packaging could have been better. Overall, a good experience.",
+      "rating": 3
+    },
+    {
+      "id": 4,
+      "name": "Zara Sheikh",
+      "img": "https://i.ibb.co.com/WcfPkrj/p7.jpg",
+      "description": "Amazing experience! Highly recommend this store. The product quality exceeded my expectations.",
+      "rating": 5
+    },
+    {
+      "id": 5,
+      "name": "Noah Hossain",
+      "img": "https://i.ibb.co.com/hXVKzjB/p2.jpg",
+      "description": "Good selection of products but a bit pricey. Service was satisfactory.",
+      "rating": 4
+    },
+    {
+      "id": 6,
+      "name": "Liam Das",
+      "img": "https://i.ibb.co.com/VpTMrnn/p9.png",
+      "description": "The product was not as described. Customer service did respond, but I am somewhat disappointed.",
+      "rating": 2
+    },
+    {
+      "id": 7,
+      "name": "Hannah Kim",
+      "img": "https://i.ibb.co.com/q93ftrR/p8.jpg",
+      "description": "Very satisfied with my purchase! The store offers unique products with excellent quality.",
+      "rating": 5
+    },
+    {
+      "id": 8,
+      "name": "Lucas Patel",
+      "img": "https://i.ibb.co.com/PGrMRht/p1.jpg",
+      "description": "Service was decent, but I faced issues with the website checkout. Could be improved.",
+      "rating": 3
+    },
+    {
+      "id": 9,
+      "name": "Aisha Khan",
+      "img": "https://i.ibb.co.com/MBnhCk4/p6.jpg",
+      "description": "Products are of top-notch quality. The customer support was extremely helpful.",
+      "rating": 4
+    },
+    {
+      "id": 10,
+      "name": "Daud Iqbal",
+      "img": "https://i.ibb.co.com/YttL6YN/p5.jpg",
+      "description": "Received a faulty product, but they quickly sent a replacement. Appreciated the prompt response.",
+      "rating": 3
+    }
+  ]
+  
