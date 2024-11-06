@@ -6,6 +6,7 @@ import Wishlist from "./Wishlist";
 import { Helmet } from 'react-helmet-async';
 import img from "../assets/Group.png"
 import { useNavigate } from "react-router-dom";
+import { PiSlidersFill } from "react-icons/pi";
 
 const Dashboard = () => {
 
@@ -94,8 +95,8 @@ Welcome to the dash board area. Here you can purchase the products you have adde
         <h1 className="text-xl font-bold">Total cost: {total}</h1>
         <button 
         onClick={handleSortBtn}
-        className="btn cartActive bg-base-200 border border-purple-600 hover:bg-purple-200 text-purple-600  duration-500 rounded-full text-center px-4"
-           >Sort By Price</button>
+        className="btn cartActive bg-base-200 border border-purple-600 hover:bg-purple-200 text-purple-600 flex items-center duration-500 rounded-full text-center px-4"
+           >Sort By Price <PiSlidersFill className="text-2xl"></PiSlidersFill></button>
         <button
         disabled={ cart.length>0 && total > 0 ? false : true }
         onClick={handlePurchaseBtn}
