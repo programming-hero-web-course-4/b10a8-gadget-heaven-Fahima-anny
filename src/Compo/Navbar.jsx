@@ -1,4 +1,4 @@
-import { Link, NavLink } from "react-router-dom";
+import { Link, NavLink, useLocation } from "react-router-dom";
 import { FaRegHeart } from "react-icons/fa6";
 import { PiShoppingCartBold } from "react-icons/pi";
 import './Navbar.css'
@@ -7,6 +7,8 @@ import { CartContext, TotalContext, WishContext } from "./Root";
 
 const Navbar = () => {
 
+  const {pathname} = useLocation() ;
+  console.log(pathname)
 
 const links = <>
 <li className="font-semibold"><NavLink to='/'>Home</NavLink></li>
@@ -20,7 +22,11 @@ const [cart] =useContext(CartContext) ;
 const [total] =useContext(TotalContext) ;
 
     return (
-        <div className="navbar w-auto mx-3 md:mx-10 md:px-40 rounded-t-3xl py-3 bg-purple-600 text-white">
+        <div className={`navbar w-auto mx-3 md:mx-10 md:px-40 rounded-t-3xl py-3 
+         ${pathname === '/dashboard' || pathname === '/statistics' || pathname === '/review' 
+              ? "bg-base-200"  : "bg-purple-600"
+            }
+         text-white`}>
         <div className="navbar-start md:w-1/2 ">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -43,15 +49,24 @@ const [total] =useContext(TotalContext) ;
               {links}
             </ul>
           </div>
-          <a className="text-2xl font-bold ">Gadget Heaven</a>
+          <a className={`text-2xl font-bold 
+             ${pathname === '/dashboard' || pathname === '/statistics' || pathname === '/review' 
+              ? "text-black"  : "text-white"
+            }
+            `}>Gadget Heaven</a>
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1 " id='nav1'>
+          <ul 
+          className={`menu menu-horizontal px-1 
+            ${pathname === '/dashboard' || pathname === '/statistics' || pathname === '/review' 
+              ? "text-gray-600"  : "text-white"
+            }
+            `} id='nav1'>
             {links}
           </ul>
         </div>
         <div className="navbar-end gap-4">
-        <button className="btn btn-circle border bg-white indicator px-3 dropdown dropdown-hover">
+        <button className="btn btn-circle border border-gray-300 bg-white indicator px-3 dropdown dropdown-hover">
            <PiShoppingCartBold className="text-xl"></PiShoppingCartBold>
            {cart.length > 0  
         ? <span className="badge bg-gray-200 indicator-item w-[25px] h-[25px]">{cart.length}</span> 
@@ -69,7 +84,7 @@ const [total] =useContext(TotalContext) ;
   </ul>
     </button>
 
-    <button className="btn btn-circle border bg-white indicator px-3 dropdown  dropdown-hover ">
+    <button className="btn btn-circle border border-gray-300 bg-white indicator px-3 dropdown  dropdown-hover ">
       <FaRegHeart className="text-xl"></FaRegHeart>
         {wishList.length > 0  
         ? <span className="badge bg-gray-200 indicator-item w-[25px] h-[25px]">{wishList.length}</span> 

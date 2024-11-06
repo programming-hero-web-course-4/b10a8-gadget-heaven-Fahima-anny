@@ -5,6 +5,7 @@ import ReactStars from "react-rating-stars-component";
 import { useContext } from "react";
 import { CartContext, TotalContext, WishContext } from "./Root";
 import { toast } from 'react-toastify';
+import { Helmet } from 'react-helmet-async';
 
 const ProductDetails = () => {
     const products = useLoaderData() ;
@@ -39,9 +40,16 @@ const handleCartBtn = () => {
     toast.success("Added to Cart")
     setTotal(total + price) ;
 }
-console.log(cart)
+
     return (
-        <div className='relative'>
+<>
+
+<Helmet>
+                <title>Product Details | Gadget Heaven</title>
+                <meta name="description" content="Detailed information about the product." />
+            </Helmet>
+
+<div className='relative'>
         <div className="hero bg-purple-600 text-white pt-6  md:pb-52 mb-10 md:mb-0">
 <div className="hero-content text-center">
 <div className="max-w-4xl mx-auto">
@@ -106,6 +114,7 @@ className='w-full md:absolute  rounded-3xl top-48'>
 <div className='md:mb-96'></div>
 
 </div>
+</>
 
     );
 };
